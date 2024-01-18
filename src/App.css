@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: white;
+  font-family: Monserrat, sans-serif;
+}
+
+.general {
+  max-width: 1600px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.app {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 0 30px;
+}
+
+.logo-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.search-container {
+  margin-left: auto;
+}
+
+.subtitle {
+  width: 199px;
+  height: 29px;
+  top: 148px;
+  left: 91px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-left: 80px;
+  font-size: 24px;
+  line-height: 29.26px;
+  color: #333333;
+}

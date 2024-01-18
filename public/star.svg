@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Capa_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 595.3 841.9"
+	 style="enable-background:new 0 0 595.3 841.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#E9434B;}
+	.st2{fill:#D3323C;}
+</style>
+<metadata>
+	<sfw  xmlns="&ns_sfw;">
+		<slices></slices>
+		<sliceSourceBounds  bottomLeftOrigin="true" height="613.9" width="1753.9" x="-1182.5" y="-700.1"></sliceSourceBounds>
+	</sfw>
+</metadata>
+<path class="st0" d="M-821.2,568.5c-114.6,73.4-249.2,34.4-315.3-55.3c-68.6-93.1-59.7-221,21.4-302.6
+	c80.7-81.3,207.8-91.6,300.7-25.5c91,64.8,133.5,201,59,317.4c1.7,1.8,3.5,3.7,5.3,5.6c37.1,37.2,74.4,74.2,111.4,111.5
+	c21.8,22,18.4,56.2-6.9,72.9c-18.5,12.2-42.4,9.5-59.1-7c-32.1-31.9-64.1-64-96.1-96C-807.6,582.7-814.2,575.7-821.2,568.5z
+	 M-1112.7,374.3c-0.1,89.2,73.3,162.6,162.5,162.8c89.1,0.2,162.7-73.1,163-162.3c0.3-89.4-73.4-163.3-162.9-163.2
+	C-1039.3,211.7-1112.6,285-1112.7,374.3z"/>
+<polygon class="st1" points="290.4,86.2 356.7,290.3 571.3,290.3 397.7,416.4 464,620.5 290.4,494.4 116.8,620.5 183.1,416.4 
+	9.5,290.3 224.1,290.3 "/>
+<polygon class="st2" points="290.4,86.2 290.4,378 224.1,290.3 "/>
+<polygon class="st2" points="571.3,290.3 290.4,378 356.7,290.3 "/>
+<polygon class="st2" points="458.9,616.3 290.4,378 397.3,414.3 "/>
+<polygon class="st2" points="116.8,620.5 290.4,378 290.4,494.4 "/>
+<polygon class="st2" points="9.5,290.3 290.4,378 183.1,416.4 "/>
+</svg>
