@@ -16,13 +16,13 @@
   left: 1047px;
   display: flex;
   border-radius: 16px;
-  border: 1px solid #f2f2f2;
   overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .search-section {
-  flex: 1;
-  margin-right: 10px;
+  margin-left: 2px;
+  padding-right: 10px;
   border-right: 1px solid #f2f2f2;
 }
 
@@ -32,18 +32,25 @@
 
 input {
   width: 100%;
-  padding: 20px;
+  padding-top: 20px;
+  margin-left: 6px;
   border: none;
   outline: none;
+  color: #080808;
+}
+
+input::placeholder {
+  color: #c0c0c0;
 }
 
 .search-button {
-  padding: 5px 30px;
+  padding: 5px 8px;
   border: none;
   cursor: pointer;
   background-color: white;
   margin-top: 11px;
   text-align: center;
+  margin-left: 4px;
 }
 
 .search-button img {

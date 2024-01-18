@@ -18,6 +18,9 @@ function App() {
         <h2 className="subtitle">Stays in Finland</h2>
         <StaysList />
       </div>
+      <div className="footer">
+        <p>---- Created by Milansu - Funval 2024 ----</p>
+      </div>
     </div>
   );
 }

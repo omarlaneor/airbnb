@@ -1,24 +1,25 @@
 import React, { useState } from "react";
 import "./searchBar.css";
+import FilterModal from "../FilterModal/FilterModal";
 
 const SearchBar = () => {
-  const [expanded, setExpanded] = useState(false);
+  const [showModal, setShowModal] = useState(false);
 
   const handleExpand = () => {
-    setExpanded(!expanded);
+    setShowModal(!showModal);
   };
 
   return (
     <div
-      className={`search-bar ${expanded ? "expanded" : ""}`}
+      className={`search-bar ${showModal ? "showModal" : ""}`}
       onClick={handleExpand}
     >
       <div className="complete-input">
         <div className="search-section">
-          <input type="text" placeholder="Filter locations" />
+          <input type="text" placeholder="Add location" />
         </div>
         <div className="search-section">
-          <input type="number" placeholder="Filter guests" />
+          <input type="number" placeholder="Add guests" />
         </div>
         <div className="search-section">
           <button className="search-button">
@@ -26,6 +27,7 @@ const SearchBar = () => {
           </button>
         </div>
       </div>
+      {showModal && <FilterModal onClose={() => setShowModal(false)} />}
     </div>
   );
 };

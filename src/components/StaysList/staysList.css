@@ -12,7 +12,11 @@
 }
 
 .stay-card {
-  width: 100%;
+  margin-right: 2px;
+}
+
+ul {
+  width: 80%;
 }
 
 .stay-card img {
@@ -38,6 +42,7 @@
   font-size: 14px;
   line-height: 17.07px;
   margin-top: 5px;
+  color: #828282;
 }
 
 .rating {
