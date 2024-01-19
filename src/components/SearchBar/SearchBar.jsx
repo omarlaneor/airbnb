@@ -19,10 +19,10 @@ const SearchBar = () => {
       <div className={`search-bar ${showModal ? "showModal" : ""}`}>
         <div className="complete-input">
           <div className="search-section">
-            <input type="text" placeholder="Add location" />
+            <input placeholder="Add location" />
           </div>
           <div className="search-section">
-            <input type="number" placeholder="Add guests" />
+            <input placeholder="Add guests" />
           </div>
           <div className="search-section">
             <button className="search-button">
