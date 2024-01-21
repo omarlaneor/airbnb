@@ -22,7 +22,7 @@ const SearchBar = () => {
             <input placeholder="Add location" />
           </div>
           <div className="search-section">
-            <input placeholder="Add guests" />
+            <input type="number" placeholder="Add guests" />
           </div>
           <div className="search-section">
             <button className="search-button">
