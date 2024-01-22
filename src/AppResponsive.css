@@ -1,0 +1,75 @@
+@media screen and (max-width: 768px) {
+  .app {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .search-container {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .stays-list {
+    grid-template-columns: 1fr;
+  }
+
+  body {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.87);
+    background-color: white;
+    font-family: Monserrat, sans-serif;
+  }
+
+  .general {
+    max-width: 1200px; /* Ajustado para ser más razonable en pantallas más pequeñas */
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    grid-column: 1;
+  }
+
+  .app {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en pantallas pequeñas */
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 20px; /* Ajustado para ser más razonable en pantallas más pequeñas */
+    margin-right: 20px; /* Ajustado para ser más razonable en pantallas más pequeñas */
+    grid-column: 1;
+  }
+
+  .logo-container img {
+    width: 96px;
+    height: 18.75px;
+    top: 46px;
+    left: 94px;
+    grid-column: 1;
+  }
+
+  .search-container {
+    margin-top: 20px; /* Ajustado para alinear con la subtitle en pantallas más pequeñas */
+    margin-left: auto;
+  }
+
+  .subtitle {
+    width: auto; /* Ajustado para ser flexible en ancho */
+    height: auto; /* Ajustado para ser flexible en alto */
+    font-weight: 700;
+    margin-top: 20px;
+    margin-left: 20px; /* Ajustado para ser más razonable en pantallas más pequeñas */
+    font-size: 24px;
+    line-height: 29.26px;
+    color: #333333;
+  }
+
+  .footer {
+    text-align: center;
+    color: #adadad;
+    margin-top: 30px;
+  }
+}
