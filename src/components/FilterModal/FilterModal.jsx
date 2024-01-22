@@ -1,6 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
 import "./filterModal.css";
-import staysData from "../../../stays.json";
+import staysData from "../../../public/stays.json";
 
 const FilterModal = ({ onClose, onSearch }) => {
   const cerrarModal = useRef(null);

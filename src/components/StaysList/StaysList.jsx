@@ -5,7 +5,7 @@ const StaysList = () => {
   const [stays, setStays] = useState([]);
 
   useEffect(() => {
-    fetch("/stays.json")
+    fetch("stays.json")
       .then((response) => response.json())
       .then((data) => setStays(data))
       .catch((error) => console.error("Error fetching data:", error));
