@@ -26,7 +26,7 @@ const SearchBar = () => {
           </div>
           <div className="search-section">
             <button className="search-button">
-              <img src="/public/lupita_rosa.svg" alt="Buscador" />
+              <img src="lupita_rosa.svg" alt="Buscador" />
             </button>
           </div>
         </div>

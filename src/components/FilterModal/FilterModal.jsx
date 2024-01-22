@@ -127,7 +127,7 @@ const FilterModal = ({ onClose, onSearch }) => {
           </div>
           <div className="search-section-modal">
             <button className="search-button-modal" onClick={handleSearch}>
-              <img src="/public/lupa.svg" alt="Buscador" />
+              <img src="lupa.svg" alt="Buscador" />
               &nbsp; Search
             </button>
           </div>
@@ -140,11 +140,7 @@ const FilterModal = ({ onClose, onSearch }) => {
               );
               return (
                 <div key={index}>
-                  <img
-                    className="location-icon"
-                    src="/public/location.svg"
-                    alt=""
-                  />
+                  <img className="location-icon" src="location.svg" alt="" />
                   {location}, {cityCountry && cityCountry.country}
                 </div>
               );

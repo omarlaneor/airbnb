@@ -26,7 +26,7 @@ function App() {
     <div className="general">
       <div className="app">
         <div className="logo-container">
-          <img src="../public/logo.png" alt="Logo img" />
+          <img src="logo.png" alt="Logo img" />
         </div>
         <div className="search-container">
           <SearchBar onSearch={handleSearch} />

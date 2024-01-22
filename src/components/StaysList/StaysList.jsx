@@ -19,7 +19,7 @@ const StaysList = () => {
           <div className="info-section">
             <p className="type">{stay.type}</p>
             <p className="rating">
-              <img src="/public/star.svg" alt="" />
+              <img src="star.svg" alt="" />
               {stay.rating}
             </p>
           </div>
