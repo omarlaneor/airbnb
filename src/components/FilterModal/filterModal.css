@@ -112,3 +112,29 @@
   border-radius: 5px;
   z-index: 2;
 }
+
+@media (max-width: 1049px) {
+  /* Estilos específicos para pantallas pequeñas */
+  .modal-content {
+    width: 100%;
+  }
+
+  .complete-input-modal {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .search-button-modal {
+    margin-left: 0;
+  }
+
+  .filtered-locations {
+    margin-left: 0;
+  }
+
+  .controls-box {
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

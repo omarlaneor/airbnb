@@ -34,6 +34,7 @@ function App() {
       </div>
       <div className="app2">
         <h2 className="subtitle">Stays in Finland</h2>
+        <p className="staysPlus">12+ stays</p>
         <StaysList stays={filteredStays} />
       </div>
       <div className="footer">
